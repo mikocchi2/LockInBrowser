@@ -1,0 +1,24 @@
+{
+  "name": "lock-in-browser",
+  "version": "1.0.0",
+  "description": "A custom whitelisted Electron browser",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "package-win": "electron-packager . \"Mini Browser\" --platform=win32 --arch=x64 --out=dist --overwrite",
+    "package-linux": "electron-packager . electron-browser --platform=linux --arch=x64 --out=dist/ --overwrite --icon=build/icon.png"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.1.8",
+    "electron-packager": "^17.0.0"
+  },
+  "build": {
+    "appId": "com.yourapp.id",
+    "win": {
+      "target": "nsis",
+      "icon": "target.ico"
+    }
+  }
+}

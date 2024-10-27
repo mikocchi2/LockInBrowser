@@ -1,0 +1,63 @@
+# allowed_domains.txt
+
+# List of allowed domains (wildcards supported)
+
+# Comment lines start with '#'
+
+# Format: name|pattern
+
+
+ChatGPT|https://chat.openai.com
+OpenAI|https://www.openai.com
+FON BG|https://fon.bg.ac.rs
+BG Universities|https://*.bg.ac.rs
+Government RS|https://*.gov.rs
+Mega.nz|https://mega.nz
+Gmail|https://mail.google.com
+Microsoft Teams|https://teams.microsoft.com
+Baza Znanja|https://bazaznanja.rs
+FON|https://oas.fon.bg.ac.rs
+CHAT GPT|https://chatgpt.com
+DRIVE|https://drive.google.com
+gmail|https://mail.google.com
+translate|https://translate.google.com
+mega|https://mega.nz
+mega|https://mega.io
+wiki|https://wikipedia.org
+spotify|https://spotify.com
+pyAnywhere|https://pythonanywhere.com
+github|https://github.com
+github.io|https://github.io
+ugg|https://u.gg
+baza|https://bazaznanja.rs
+estudent|https://student.fon.bg.ac.rs
+foncy|https://fon.bg.ac.rs
+sajtkafana|https://dreamclients.com
+kredit|https://kreditistipendije.prosveta.gov.rs
+prijava kredit|https://prijava.eid.gov.rs
+tabs|https://ultimate-guitar.com
+panlplus|https://planplus.rs
+Microsoft Teams | https://teams.microsoft.com
+Microsoft Official Site | https://microsoft.com
+ZZZZS| https://zzzzsbg.rs
+Moj Doktor - Serbian Health Service | https://mojdoktor.gov.rs
+Linktree - Profile Linking Tool | https://linktr.ee
+Polazak - Serbian Transport Information | https://polazak.rs
+BAS | https://www.bas.rs
+Google Cloud Console | https://console.cloud.google.com
+FON eLearning System | https://nastava.fon.bg.ac.rs
+FON Lab System | https://labsys.fon.rs
+FON Laboi System | https://laboi.fon.bg.ac.rs
+FON MMIO Course Page | https://mmiosj.fon.bg.ac.rs
+FON MMK Lab Page | http://www.mmklab.fon.bg.ac.rs
+Old FON - Undergraduate Course Pages | https://oldfon.fon.bg.ac.rs/studije/osnovne-akademske-studije/stranice-predmeta
+Node.js Official Site | https://nodejs.org
+Pesmarica - Serbian Song Lyrics Archive | https://pesmarica.rs
+Mojakartica - Serbian Card Service | https://mojakartica.rs
+ResearchGate - Academic Networking | https://researchgate.net
+OP.GG - Gaming Stats and Analytics | https://op.gg
+ (SC) | https://sc.rs
+Ubuntu Official Site | https://ubuntu.com
+Wireshark - Network Protocol Analyzer | https://wireshark.org
+MUP Serbia - Certificate Authority | https://ca.mup.gov.rs
+MathWorks - MATLAB and Simulink | https://www.mathworks.com

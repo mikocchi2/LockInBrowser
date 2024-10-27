@@ -1,0 +1,57 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Whitelisted Browser</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+    }
+    #buttons-container button {
+      display: block;
+      width: 300px;
+      margin: 10px auto;
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    #home-button {
+      background-color: lightblue;
+      border: none;
+      padding: 10px 20px;
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Select a Site to Visit</h1>
+
+
+  <div id="buttons-container"></div>
+
+  <script>
+    // Fetch allowed domains from the main process
+    window.electronAPI.getAllowedDomains().then(domains => {
+      const container = document.getElementById('buttons-container')
+      domains.forEach(domain => {
+        const button = document.createElement('button')
+        button.textContent = domain.name
+        button.onclick = () => {
+          window.location.href = domain.pattern // Navigate to the URL
+        }
+        container.appendChild(button)
+      })
+    })
+
+    // Function to reload the homepage
+    function goHome() {
+      window.location.href = 'index.html'
+    }
+  </script>
+</body>
+</html>
